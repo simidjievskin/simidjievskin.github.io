@@ -1,4 +1,9 @@
 <div class="social-links">
+     {% if site.email %}
+        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
+            <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
+        </a>
+    {% endif %}
     {% if site.facebook %}
         <a class="link" data-title="facebook.com/{{ site.facebook }}" href="https://facebook.com/{{ site.facebook }}" target="_blank">
             <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
@@ -100,10 +105,10 @@
             <svg class="icon icon-microphone"><use xlink:href="#icon-microphone"></use></svg>
         </a>
     {% endif %}
-
-    {% if site.email %}
-        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
-            <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
+    {% if site.gscholar %}
+        <a class="link" data-title="https://scholar.google.com/citations?{{ site.gscholar }}" href="https://scholar.google.com/citations?{{ site.gscholar }}" target="_blank">
+            <svg class="fa fa-graduation-cap"><use xlink:href="#fa-graduation-cap"></use></svg>
         </a>
     {% endif %}
+   
 </div>
