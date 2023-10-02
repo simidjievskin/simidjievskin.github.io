@@ -11,9 +11,9 @@ external-image: false
 picture: assets/images/IJS_NikolaSimidjievski_bw.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: assets/CV_Simidjievski_Oct2023.pdf
+resume: true
 resume-external: false
-resume-url: https://google.com/?q=my+resume
+resume-url: assets/CV_Simidjievski_Oct2023.pdf
 
 url: https://simidjievskin.github.io
 # your url: https://USERNAME.github.io
