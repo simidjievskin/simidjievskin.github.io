@@ -8,8 +8,8 @@ description: scientist & photographer by day - dreamer by night
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/NS_new_small.jpg #assets/images/ns_bw_sketch.jpg
-picture-real: assets/images/NS_new_small.jpg
+picture: assets/images/NS_2025.jpg #assets/images/ns_bw_sketch.jpg
+picture-real: assets/images/NS_2025.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
